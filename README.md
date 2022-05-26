@@ -6,19 +6,23 @@ Being a long time follower of financial markets such as the stock market and the
 
 The bot uses two momentum indicators:
 
-1. Relative Strength Index ([RSI]([url](https://www.investopedia.com/terms/r/rsi.asp))) 
+1. Relative Strength Index ([RSI](https://www.investopedia.com/terms/r/rsi.asp))
   - Bot default Buying Condition: RSI < 30
   - Bot default Selling Condition: RSI > 70
 
-2. Average Convergence/Divergence ([MACD]([url](https://www.investopedia.com/terms/m/macd.asp)))
+2. Average Convergence/Divergence ([MACD](https://www.investopedia.com/terms/m/macd.asp))
   - Bot default Buying Condition: MACD > 0
   - Bot default Selling Condition:  MACD < 0 
+  
+**Defualt Conditions**
 
-When both RSI and MACD buying conditions are met, the bot will buy. 
+    When both RSI and MACD buying conditions are met, the bot will buy. 
 
-When both RSU and MACD selling conditions are met, the bot will sell. 
+    When both RSU and MACD selling conditions are met, the bot will sell. 
 
-Through backtesting 2021 ETH USD data, this bot would have given a return of ~6.54% in 2021. 
+**Results**
+
+   Through backtesting 2021 ETH USD data, this bot would have given a return of ~6.54% in 2021. 
 
 ## Author & Date 
 - Author: [@hadisrour6](https://www.github.com/hadisrour6)
@@ -28,7 +32,7 @@ Through backtesting 2021 ETH USD data, this bot would have given a return of ~6.
 ## Technical Documentation   
 
 **To use the bot locally**
-  1. Install Python 3.7 or above. Install Python [here]([url](https://www.python.org/)).  
+  1. Install Python 3.7 or above. Install Python [here](https://www.python.org/).  
 
   2. Run ```pip install -r requirements.txt``` to install all dependencies.
 
@@ -36,7 +40,7 @@ Through backtesting 2021 ETH USD data, this bot would have given a return of ~6.
  
   4. Run the bot with  ```python CryptoBot.py```
  
-**How the Bot Works**
+
 
 
 
