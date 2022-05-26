@@ -1,0 +1,6 @@
+twilio
+numpy
+websocket_client
+python-binance
+TA-Lib
+the Relative Strength Index (RSI) and Moving Average Convergence/Divergence (MACD)
