@@ -18,7 +18,7 @@ The bot uses two momentum indicators:
 
     When both RSI and MACD buying conditions are met, the bot will buy. 
 
-    When both RSU and MACD selling conditions are met, the bot will sell. 
+    When both RSI and MACD selling conditions are met, the bot will sell. 
 
 **Results**
 
